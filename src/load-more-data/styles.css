@@ -1,0 +1,38 @@
+.load-more-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(11, 12, 12);
+
+}
+.product-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  
+}
+.product{
+  padding: 20px;
+  border: 1px solid ;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.product img{
+  width: 200px;
+  height: 200px;
+  
+}
+p{
+  color: white;
+}
+button{
+  padding: 10px 20px;
+ text-align: center;
+ background-color: black;
+ color: white;
+ cursor: pointer;
+ border: 2px solid white;
+  
+  
+}
